@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1.title {
+    margin-bottom: 20px;
+    color: #444444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #080808;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #1a1a1a;
+    color: #030303;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.btn a:hover {
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    color: #201f20;
+}
+
+.navbar-items ul {
+    display: flex;
+}
+
+.navbar-items ul li {
+    margin: 0 10px;
+}
+
+.navbar-items ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.navbar-items ul li a:hover {
+    color: rgb(59, 59, 59);
+}
+
+.bg {
+    background: linear-gradient(rgba(131, 121, 121, 2), rgba(124, 118, 118, 0.6)), url(images/clinic.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-content {
+    text-align: center;
+    color: #fff;
+}
+
+.bg-content h1 {
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+.bg-content h1 span {
+    color: #000000;
+}
+
+.about,
+.deparaments,
+.contactus,
+.ourteam {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.deparaments {
+    background-color: #f5f5f5;
+}
+
+.diff-deparaments {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff-deparaments .deparaments-item {
+    width: 30%;
+}
+
+.diff-deparaments .deparaments-item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff-deparaments .deparaments-item h3 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.form_wrapper .form_input {
+    margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"] {
+    width: 250px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea {
+    width: 250px;
+    padding: 12px 20px;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+}
+
+.ourteam {
+    background-color: #f5f5f5;
+}
+
+.ourteam_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourteam_wrapper .team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team {
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.ourteam_wrapper .team_members img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img {
+    transform: scale(1.1);
+}
